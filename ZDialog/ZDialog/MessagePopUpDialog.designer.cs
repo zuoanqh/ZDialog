@@ -1,4 +1,4 @@
-﻿namespace WordGenPreviewTool
+﻿namespace cn.zuoanqh.open.ZDialog
 {
   partial class MessagePopUpDialog
   {
@@ -58,7 +58,7 @@
       this.Name = "MessagePopUpDialog";
       this.ShowIcon = false;
       this.ShowInTaskbar = false;
-      this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+      this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "救命，我被关在一个幸运饼干的工厂里";
       this.TopMost = true;
       this.Shown += new System.EventHandler(this.MessagePopUpDialog_Shown);
@@ -68,6 +68,7 @@
 
     #endregion
 
-    private System.Windows.Forms.Label lblMessage;
+    public System.Windows.Forms.Label lblMessage;
+
   }
 }

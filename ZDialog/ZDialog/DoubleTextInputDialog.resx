@@ -117,4 +117,187 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCommit1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtUserInput1.Name" xml:space="preserve">
+    <value>txtUserInput1</value>
+  </data>
+  <data name="&gt;&gt;lblText1.Name" xml:space="preserve">
+    <value>lblText1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtUserInput2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 30</value>
+  </data>
+  <data name="&gt;&gt;txtUserInput2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCommit2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtUserInput1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblText2.Name" xml:space="preserve">
+    <value>lblText2</value>
+  </data>
+  <data name="lblText1.Text" xml:space="preserve">
+    <value>测试文字</value>
+  </data>
+  <data name="lblText1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 75</value>
+  </data>
+  <data name="&gt;&gt;lblText2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>529, 275</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DoubleTextInputDialog</value>
+  </data>
+  <data name="txtUserInput2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnCommit1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtUserInput1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCommit2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblText2.Text" xml:space="preserve">
+    <value>测试文字</value>
+  </data>
+  <data name="&gt;&gt;lblText2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtUserInput2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCommit2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCommit1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnCommit1.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="lblText1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;txtUserInput1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblText1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="txtUserInput1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 101</value>
+  </data>
+  <data name="lblText2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtUserInput2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 205</value>
+  </data>
+  <data name="&gt;&gt;txtUserInput2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblText2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCommit2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;btnCommit1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCommit2.Name" xml:space="preserve">
+    <value>btnCommit2</value>
+  </data>
+  <data name="txtUserInput1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 30</value>
+  </data>
+  <data name="lblText2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnCommit2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCommit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 236</value>
+  </data>
+  <data name="lblText2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 146</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>FangSong, 12pt, style=Bold</value>
+  </data>
+  <data name="btnCommit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 30</value>
+  </data>
+  <data name="lblText1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblText2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 52</value>
+  </data>
+  <data name="&gt;&gt;lblText1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtUserInput1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnCommit1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCommit2.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="btnCommit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 82</value>
+  </data>
+  <data name="btnCommit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>420, 13</value>
+  </data>
+  <data name="&gt;&gt;txtUserInput2.Name" xml:space="preserve">
+    <value>txtUserInput2</value>
+  </data>
+  <data name="&gt;&gt;btnCommit1.Name" xml:space="preserve">
+    <value>btnCommit1</value>
+  </data>
+  <data name="&gt;&gt;lblText1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>11, 20</value>
+  </data>
+  <data name="&gt;&gt;lblText1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>测试标题</value>
+  </data>
+  <data name="btnCommit2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja</value>
+  </metadata>
 </root>

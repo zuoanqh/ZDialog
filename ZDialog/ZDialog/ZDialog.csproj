@@ -55,11 +55,26 @@
       <DependentUpon>MessagePopUpDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SkippableCountDownAreYouSureDialog.cs">
+    <Compile Include="Strings\Resources.ja.Designer.cs">
+      <DependentUpon>Resources.ja.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Strings\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Strings\Resources.zh-Hans.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.zh-Hans.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SkippableCountdownAreyousureDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SkippableCountDownAreYouSureDialog.designer.cs">
-      <DependentUpon>SkippableCountDownAreYouSureDialog.cs</DependentUpon>
+    <Compile Include="SkippableCountdownAreyousureDialog.designer.cs">
+      <DependentUpon>SkippableCountdownAreyousureDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="TextInputDialog.cs">
       <SubType>Form</SubType>
@@ -67,20 +82,56 @@
     <Compile Include="TextInputDialog.designer.cs">
       <DependentUpon>TextInputDialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DoubleTextInputDialog.en.resx">
+      <DependentUpon>DoubleTextInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoubleTextInputDialog.ja.resx">
+      <DependentUpon>DoubleTextInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DoubleTextInputDialog.resx">
       <DependentUpon>DoubleTextInputDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MessagePopUpDialog.resx">
       <DependentUpon>MessagePopUpDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SkippableCountDownAreYouSureDialog.resx">
-      <DependentUpon>SkippableCountDownAreYouSureDialog.cs</DependentUpon>
+    <EmbeddedResource Include="Strings\Resources.ja.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.ja.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\Resources.zh-Hans.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkippableCountdownAreyousureDialog.en.resx">
+      <DependentUpon>SkippableCountdownAreyousureDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkippableCountDownAreYouSureDialog.ja.resx">
+      <DependentUpon>SkippableCountdownAreyousureDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkippableCountdownAreyousureDialog.resx">
+      <DependentUpon>SkippableCountdownAreyousureDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextInputDialog.en.resx">
+      <DependentUpon>TextInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextInputDialog.ja.resx">
+      <DependentUpon>TextInputDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TextInputDialog.resx">
       <DependentUpon>TextInputDialog.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
